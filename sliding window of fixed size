@@ -1,0 +1,25 @@
+// sliding window of fixed size of contigous element
+class Slide {
+    public static void main(String[] args) {
+        int a[]={1,2,3,4,5};
+        int sum=0;
+        int max=0;
+        int k=5;
+
+        for(int i=0;i<a.length-k+1;i++)
+        {
+            for(int j=i;j<k+i;j++)
+            {
+                
+                    System.out.print(a[j]+"\t");
+                    
+                 
+                 
+            }
+            System.out.println();
+            
+        }
+             
+
+    }
+}
